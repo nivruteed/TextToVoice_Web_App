@@ -100,3 +100,67 @@ option {
   background-color: #607c82;
   color: #1f0b0b;
 }
+
+@media (max-width: 625px) {
+  textarea {
+    width: 400px;
+  }
+
+  option {
+    width: 100px;
+  }
+  .hero h1 {
+    font-size: 30px;
+    font-weight: 250;
+  }
+
+  .row {
+    display: inline-block;
+    align-items: center;
+  }
+
+  select {
+    display: inline-block;
+    margin-left: 143px;
+    width: 308px;
+    text-align: center;
+  }
+  button {
+    text-align: center;
+    margin-top: 50px;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 375px) {
+  textarea {
+    width: 300px;
+  }
+
+  option {
+    width: 100px;
+  }
+  .hero h1 {
+    font-size: 30px;
+    font-weight: 250;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .row {
+    display: inline-block;
+    align-items: center;
+  }
+
+  select {
+    display: inline-block;
+    margin-left: 143px;
+    width: 308px;
+    text-align: center;
+  }
+  button {
+    text-align: center;
+    margin-top: 50px;
+    margin: 20px auto;
+  }
+}
